@@ -9,7 +9,7 @@ This is the page for official ASC challenge baseline systems. There are three pr
 ## Notice
 + Models in DeepKWS and Keyword-filler are zipped. Please unzip and run the script to get the results.
 + Keyword-filler is based on kaldi, so please create a soft link to wsj/s5/utils and wsj/s5/steps in Keyword-filler/ and change the path.sh to your kaldi path
-+ You should put KWS-Dev.zip and SSL-Dev.zip in to the Keyword-filler/data/source/original and then run the script
++ You should put KWS-Dev.zip and SSL-Dev.zip in to the Keyword-filler/data/source/original and then run the script in Keyword-filler/
 + Please view the requirements in requirement.txt of each project. 
 
 ## Paper
@@ -29,4 +29,4 @@ The paper can be downloaded from: https://arxiv.org/abs/2011.02198.
   }
 ```
 Please visit the challenge official website for more details. 
-<http://asc.ubtrobot.com/ >
+http://asc.ubtrobot.com/
