@@ -1,0 +1,2 @@
+1. Generate 'wav.scp' of your test wavlist.
+2. Run "CUDA_VISIBLE_DEVICES='x' python run_ssl.py" and will generate the accuracy and MAE of the model.
