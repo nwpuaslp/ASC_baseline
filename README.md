@@ -7,5 +7,5 @@ There are three project for ASC baseline
 
 # Notice
 + Model in DeepKWS and Keyword-filler is ziped please unzip and run the run script to get the result
-+ Keyword-filler is based on kaldi so please create a soft link to wsj/s5/utils and wsj/s5/steps
++ Keyword-filler is based on kaldi so please create a soft link to wsj/s5/utils and wsj/s5/steps in Keyword-filler/ and change the path.sh to your kaldi path
 + You should put KWS-Dev.zip and SSL-Dev.zip in to the Keyword-filler/data/source/original
