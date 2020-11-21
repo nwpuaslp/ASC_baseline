@@ -7,9 +7,10 @@ This is the page for official ASC challenge baseline systems. There are three pr
 + **Keyword-filler** is the keyword-filler Kaldi recipe for the keyword spotting (KWS) track, described in the challenge introduction paper.
 
 ## Notice
-+ Model in DeepKWS and Keyword-filler is ziped please unzip and run the run script to get the result
-+ Keyword-filler is based on kaldi so please create a soft link to wsj/s5/utils and wsj/s5/steps in Keyword-filler/ and change the path.sh to your kaldi path
-+ You should put KWS-Dev.zip and SSL-Dev.zip in to the Keyword-filler/data/source/original
++ Models in DeepKWS and Keyword-filler are zipped. Please unzip and run the script to get the results.
++ Keyword-filler is based on kaldi, so please create a soft link to wsj/s5/utils and wsj/s5/steps in Keyword-filler/ and change the path.sh to your kaldi path
++ You should put KWS-Dev.zip and SSL-Dev.zip in to the Keyword-filler/data/source/original and then run the script
++ Please view the requirements in requirement.txt of each project. 
 
 ## Paper
 Please kindly cite the following challenge description paper if you use the codes provided here.
