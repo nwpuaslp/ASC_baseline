@@ -40,7 +40,7 @@ fixed_beam_opts=$(cat $stft_conf | xargs)
 
 mkdir -p $enhan_dir
 $cmd JOB=1:$nj $exp_dir/log/run_fixed_beam.JOB.log \
-  /home/environment/jwu/miniconda3/envs/jwu/bin/python ./scripts/sptk/apply_fixed_beamformer.py \
+  python ./scripts/sptk/apply_fixed_beamformer.py \
   $fixed_beam_opts \
   $exp_dir/wav.JOB.scp \
   $weight $enhan_dir
