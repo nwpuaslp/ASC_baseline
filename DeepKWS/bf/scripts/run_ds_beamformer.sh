@@ -50,7 +50,7 @@ if [ ! -z $utt2doa ]; then
   echo "$0: Run DS beamformer on $utt2doa ..."
   mkdir -p $dst_dir/doa${doa}_$dirname
   $cmd JOB=1:$nj $exp_dir/run_ds.JOB.log \
-    /home/environment/jwu/miniconda3/envs/jwu/bin/python ./scripts/sptk/apply_ds_beamformer.py \
+    python ./scripts/sptk/apply_ds_beamformer.py \
     $stft_opts $beamformer_opts \
     --utt2doa $utt2doa \
     $exp_dir/wav.JOB.scp \
@@ -62,7 +62,7 @@ else
     echo "$0: Run DS beamformer on DoA $doa ..."
     mkdir -p $dst_dir/doa${doa}_$dirname
     $cmd JOB=1:$nj $exp_dir/$dirname.$doa.ds.JOB.log \
-      /home/environment/jwu/miniconda3/envs/jwu/bin/python ./scripts/sptk/apply_ds_beamformer.py \
+      python ./scripts/sptk/apply_ds_beamformer.py \
       $stft_opts $beamformer_opts \
       --doa $doa \
       $exp_dir/wav.JOB.scp \
