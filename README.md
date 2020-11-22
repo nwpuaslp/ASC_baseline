@@ -1,4 +1,4 @@
-# IEEE SLT 2021 Alpha-mini Speech Challenge(ASC) Baseline Systems
+# IEEE SLT 2021 Alpha-mini Speech Challenge (ASC) Baseline Systems
 ## Introduction
 This is the page for official ASC challenge baseline systems. There are three projects:
 
@@ -13,7 +13,9 @@ This is the page for official ASC challenge baseline systems. There are three pr
 
 ## Paper
 Please kindly cite the following challenge description paper if you use the codes provided here.
+
 Yihui, Zhuoyuan Yao, Weipeng He, Jian Wu, Xiong Wang, Zhanheng Yang, Shimin Zhang, Lei Xie, Dongyan Huang, Hui Bu, Petr Motlicek and Jean-Marc Odobez, IEEE SLT 2021 Alpha-mini Speech Challenge: Open Datasets, Tracks, Rules and Baselines, IEEE SLT 2021.
+
 The paper can be downloaded from: https://arxiv.org/abs/2011.02198.
 
 ### Bibtex:
